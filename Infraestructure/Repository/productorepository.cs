@@ -16,8 +16,8 @@ namespace Infraestructure.Repository
 
         public List<Productos> GetProductoById(int id)
         {
-            List<Productos> notas = registro.Where(x => x.Id == id).ToList();
-            return notas;
+            List<Productos> producto = registro.Where(x => x.Id == id).ToList();
+            return producto;
         }
 
        
